@@ -27,12 +27,26 @@
 }
 
 .container-login {
-    width: 390px;
-    height: 500px;
-    border-radius: 10px;
+    width: 380px;
+    height: 550px;
     overflow: hidden;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color: transparent;
+}
+
+.logo-login {
+    margin: 20px auto;
+}
+
+.form-login {
+    width: 380px;
+    height: 370px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: white;
 }
