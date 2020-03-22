@@ -5,3 +5,4 @@ export class InvalidToken extends HttpException {
         super('O Tokén enviado está nulo ou indefinido', HttpStatus.BAD_REQUEST);
     }
 }
+

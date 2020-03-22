@@ -26,8 +26,24 @@
           </svg>
         </div>
         <div class="form-login">
-          <form>
-          </form>
+          <div class="form-input">
+            <mat-form-field class="item-form">
+              <mat-label>
+                Email
+              </mat-label>
+              <input type="email" class="input-form" matInput placeholder="example@example.com">
+            </mat-form-field>
+            <mat-form-field class="item-form">
+              <mat-label>
+                Password
+              </mat-label>
+              <input type="password" class="input-form" matInput placeholder="*********">
+            </mat-form-field>
+          </div>
+          <div class="form-button">
+            <button class="button-login" mat-raised-button color="primary">Login</button>
+            <span class="button-forgot-password">I can not login! </span>
+          </div>
         </div>
       </div>
     </div>

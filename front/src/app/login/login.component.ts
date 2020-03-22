@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
   title = "Risk Manager"
+  email = null
+  senha = null
+
+  login () {
+    alert('alert')
+  }
 }
